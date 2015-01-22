@@ -9,7 +9,6 @@
     tools:context=".MainActivity" >
 
     <!-- TODO: Button1 の右に 2 つのボタンを並べる -->
-    <!-- TODO: Button1 の下に 2 つのボタンを並べる -->
     <Button
         android:id="@+id/Button1"
         android:layout_width="wrap_content"
@@ -35,6 +34,8 @@
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/button"
         android:layout_toEndOf="@+id/button" />
+    <!-- TODO: Button1 の下に 2 つのボタンを並べる -->
+
 
     <Button
         android:layout_width="wrap_content"
@@ -54,6 +55,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
+    <!-- TODO: Button6 を 画面中央に配置する -->
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -61,7 +63,7 @@
         android:id="@+id/button5"
         android:layout_below="@+id/button4"
         android:layout_centerHorizontal="true" />
-
+    <!-- TODO: Button7 を画面左下に配置する -->
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -70,7 +72,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
-
+    <!-- TODO: Button7 の右に 1 つボタンを並べる -->
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -79,7 +81,7 @@
         android:layout_alignParentBottom="true"
         android:layout_toRightOf="@+id/button6"
         android:layout_toEndOf="@+id/button6" />
-
+    <!-- TODO: Button7 の上に 1 つボタンを並べる -->
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -88,10 +90,4 @@
         android:layout_above="@+id/button6"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
-
-    <!-- TODO: Button6 を 画面中央に配置する -->
-
-    <!-- TODO: Button7 を画面左下に配置する -->
-    <!-- TODO: Button7 の右に 1 つボタンを並べる -->
-    <!-- TODO: Button7 の上に 1 つボタンを並べる -->
 </RelativeLayout>
